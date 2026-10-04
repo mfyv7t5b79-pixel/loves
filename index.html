@@ -3,79 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Feliz Cumpleaños ❤️</title>
+<title>Feliz Cumpleaños Francisco ❤️</title>
 <style>
+* {
+ box-sizing: border-box;
+}
 body {
  margin: 0;
- font-family: Arial, sans-serif;
- background: linear-gradient(135deg, #111111, #3a1f2b);
+ font-family: Georgia, serif;
+ background: #050505;
  color: white;
  text-align: center;
 }
 .container {
  min-height: 100vh;
+ padding: 35px 20px;
  display: flex;
- justify-content: center;
+ flex-direction: column;
  align-items: center;
- padding: 25px;
- box-sizing: border-box;
-}
-.card {
- max-width: 500px;
- width: 100%;
- background: rgba(255,255,255,0.10);
- border-radius: 25px;
- padding: 30px 20px;
- box-sizing: border-box;
 }
 h1 {
- font-size: 32px;
+ color: #d9a441;
+ font-size: 42px;
+ margin: 10px 0 5px;
+ font-family: cursive;
+}
+h2 {
+ color: #f3d28b;
+ font-size: 28px;
+ margin: 0 0 25px;
 }
 .photo {
- width: 100%;
- max-width: 400px;
- border-radius: 20px;
- margin: 20px auto;
- display: block;
+ width: 90%;
+ max-width: 430px;
+ border-radius: 18px;
+ border: 3px solid #c99a3a;
+ box-shadow: 0 0 30px rgba(201,154,58,.45);
 }
 .message {
+ max-width: 650px;
+ margin: 30px auto;
+ padding: 25px;
  font-size: 19px;
- line-height: 1.6;
+ line-height: 1.7;
+ color: #f5f5f5;
+}
+.highlight {
+ color: #e4b65b;
+ font-size: 25px;
+ font-weight: bold;
 }
 .music {
  display: inline-block;
- margin-top: 20px;
- padding: 15px 25px;
- background: white;
- color: #222;
- border-radius: 30px;
+ padding: 14px 28px;
+ background: #c99a3a;
+ color: #050505;
  text-decoration: none;
+ border-radius: 30px;
  font-weight: bold;
- font-size: 17px;
+ margin-top: 10px;
+}
+.footer {
+ margin-top: 35px;
+ color: #8d8d8d;
+ font-size: 14px;
 }
 </style>
 </head>
 <body>
 <div class="container">
-<div class="card">
-<h1>❤️ Feliz Cumpleaños ❤️</h1>
-<img src="we.jpg" class="photo" alt="Francisco">
-<p class="message">
-     Hoy quiero recordarte lo especial que eres para mí.
+<h1>Feliz Cumpleaños</h1>
+<h2>Francisco ❤️</h2>
+<img
+   class="photo"
+   src="cumple.jpg"
+   alt="Feliz cumpleaños Francisco">
+<div class="message">
+   Francisco, feliz cumpleaños.
 <br><br>
-     Espero que este dia esté lleno de momentos bonitos,
-     sonrisas, mucho amor y que sea el primero de muchos juntos.
+   Hoy quiero celebrar tu vida y agradecer por todos esos momentos
+   que hemos compartido.
 <br><br>
-     ✨ ¡Feliz cumpleaños amor! ✨
-</p>
-<p>🎵 Una canción para ti</p>
-<audio controls preload="auto" style="width:100%; margin-top:20px;">
-<source src="https://mfyv7t5b79-pixel.github.io/loves/musica.mp3" type="audio/mpeg">
-
- Tu navegador no puede reproducir esta canción.
-</audio>
+   Deseo que este nuevo año esté lleno de sueños cumplidos,
+   salud, alegría y muchas razones para sonreír.
+<br><br>
+   Y si pudiera pedir un deseo para ti, sería que nunca te falten
+   motivos para ser feliz… y que sigamos creando juntos muchos
+   recuerdos más.
+<br><br>
+<span class="highlight">
+     Feliz cumpleaños, me encantas. ❤️
+</span>
+<br><br>
+   Que la vida siga sorprendiéndote bonito.
+<br><br>
+<a class="music"
+      href="https://www.youtube.com/watch?v=KFLvCBqx"
+      target="_blank">
+     🎵 Escuchar nuestra canción
+</a>
+</div>
+<div class="footer">
+   Con cariño ❤️
 </div>
 </div>
 </body>
 </html>
-
